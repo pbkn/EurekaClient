@@ -1,0 +1,12 @@
+eureka:
+  instance:
+    appname: greetings
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:7171/eureka/
+server:
+  port: 8181
+spring:
+  application:
+    name: greetings
